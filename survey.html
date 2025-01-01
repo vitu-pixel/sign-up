@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Survey Form</title>
+        <link rel="icon" href="img/section-img.png">
+    </head> 
+    <body>
+        <form action="">
+            <img src="images/my-log.jpg" alt="VituMED">
+            <P class="LIN">SURVEY FORM</P>
+            <div class="inputsE">
+                <input type="email" class="email" placeholder="Enter your email adress" required><br>
+                    </div>
+            <p class="quest">In which group does your company belong?</p>
+            <div class="radio">
+           <label>
+            <input type="radio" name="NGO" value="Government">Government
+           </label><br><br>
+           <label>
+            <input type="radio" name="NGO" value="NGO">N.G.O.
+           </label> <br><br>
+           <label>
+            <input type="radio" name="NGO" value="Other">Other:..........................................................(Clarify)
+           </label>
+        </div>
+            <div class="que">
+            <P class="question"> What kind of service(s) were you offered?</P>
+        <ul>
+            <li><input type="checkbox" id="Maint">
+            <label for="Maint">Maintainance</label> <br></li>
+            <li><input type="checkbox" id="inst">
+            <label for="inst">Installation</label> <br></li>
+            <li><input type="checkbox" id="Design">
+             <label for="Design">Designing</label> <br></li>
+             <li><input type="checkbox" id="cert">
+            <label for="cert">Certification</label> <br></li>
+        </ul>
+            
+        
+        <div class="comment">
+            <p>Comments</p>
+        <textarea name="comment" id="comment" cols="20%" rows="5%"> </textarea>
+    </div>
+        
+    <input type="button" value="SUBMIT" class="fot">
+        <p class="rate">Rate our services </p>
+        <div class="stars">
+            <input type="radio" id="stars5" name="rating" value="5">
+            <label for="stars5">1&#9733;</label>
+            <input type="radio" id="stars4" name="rating" value="5">
+            <label for="stars4">2&#9733;</label>
+            <input type="radio" id="stars3" name="rating" value="5">
+            <label for="stars3">3&#9733;</label>
+            <input type="radio" id="stars2" name="rating" value="5">
+            <label for="stars2">4&#9733;</label>
+            <input type="radio" id="stars1" name="rating" value="5">
+            <label for="stars1">5&#9733;</label>
+        </div>
+        <a target="_self" href="index.html"><input type="button" value="Home Page" class="homepg"></a>
+        </form>
+    </body>
+    
+</html>
